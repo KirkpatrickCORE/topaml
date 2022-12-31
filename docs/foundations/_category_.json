@@ -1,0 +1,8 @@
+{
+  "label": "Foundations",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "An introduction starting with the history of probability, models, the empirical basis of the theory of probability, and culminating with notes and references."
+  }
+}
