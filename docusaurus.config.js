@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'The Open-Source Guide to the Theory of Probability and Machine Learning',
   tagline: 'Computational Applications With Code',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://www.kirkpatrickcore.com/topaml',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,9 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'KirkpatrickCORE', // Usually your GitHub org/user name.
-  projectName: 'ToPaML', // Usually your repo name.
+  projectName: 'topaml', // Usually your repo name.
+  deploymentBranch: 'main',
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -85,7 +87,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/KirkpatrickCORE/topaml',
             label: 'GitHub',
             position: 'right',
           },
@@ -129,7 +131,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/KirkpatrickCORE/topaml',
               },
               {
                 label: 'Author',
