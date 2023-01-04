@@ -8,17 +8,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'The Open-Source Guide to the Theory of Probability and Machine Learning',
   tagline: 'Computational Applications With Code',
-  url: 'https://www.kirkpatrickcore.com/topaml',
-  baseUrl: '/',
+  url: 'https://www.kirkpatrickcore.com/',
+  baseUrl: '/topaml/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/charolee_chanard.ico',
+  staticDirectories: ['static'],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'KirkpatrickCORE', // Usually your GitHub org/user name.
   projectName: 'topaml', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'prod',
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -39,14 +40,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/KirkpatrickCORE/topaml/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/KirkpatrickCORE/topaml/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
