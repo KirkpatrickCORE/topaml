@@ -9,7 +9,7 @@ const config = {
   title: 'The Open-Source Guide to the Theory of Probability and Machine Learning',
   tagline: 'Computational Applications With Code',
   url: 'https://www.kirkpatrickcore.com/',
-  baseUrl: '/topaml/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/charolee_chanard.ico',

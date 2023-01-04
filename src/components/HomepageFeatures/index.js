@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Fundamental Concepts',
-    Svg: require('@site/static/topaml/img/ToPaML/2.svg').default,
+    Svg: require('@site/static/img/ToPaML/2.svg').default,
     description: (
       <>
         The first part develops the basic probability calculus. Anyone with a background in basic mathematics will
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Probability Models',
-    Svg: require('@site/static/topaml/img/ToPaML/13.svg').default,
+    Svg: require('@site/static/img/ToPaML/13.svg').default,
     description: (
       <>
         The second part deals with material concepts more difficult and advanced. These topics are extremely important 
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Machine Learning Application',
-    Svg: require('@site/static/topaml/img/ToPaML/14.svg').default,
+    Svg: require('@site/static/img/ToPaML/14.svg').default,
     description: (
       <>
         The third part explores modern computational artificial intelligence systems and distinguishes between  
